@@ -1,0 +1,306 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@300;400;500;600;900&family=Raleway:wght@400;700&display=swap');
+
+
+:root{
+    --hf : 'Lato', sans-serif;
+    --mf : 'Montserrat', sans-serif;
+    --sf : 'Raleway', sans-serif;
+    --brand : #ffba00;
+    --brand2 : #242424;
+}
+
+/*
+root css ends
+*/
+
+.l-reg{
+    font-family: var(--hf);
+    font-weight: 400;
+}
+
+.l-black{
+    font-family: var(--hf);
+    font-weight: 900;
+}
+
+.m-light{
+    font-family: var(--mf);
+    font-weight: 300;
+}
+
+.m-reg{
+    font-family: var(--mf);
+    font-weight: 400;
+}
+
+.m-med{
+    font-family: var(--mf);
+    font-weight: 500;
+}
+
+.m-semi{
+    font-family: var(--mf);
+    font-weight: 600;
+}
+
+.m-black{
+    font-family: var(--mf);
+    font-weight: 900;
+}
+
+.r-reg{
+    font-family: var(--sf);
+    font-weight: 400;
+}
+
+.r-bold{
+    font-family: var(--sf);
+    font-weight: 700;
+}
+
+/*
+font family css ends
+*/
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+.fs-29{
+    font-size: 29px;
+}
+
+.fs-33{
+    font-size: 33px;
+}
+
+.fs-37{
+    font-size: 37px;
+}
+
+.fs-41{
+    font-size: 41px;
+}
+
+.fs-47{
+    font-size: 47px;
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.fs-104{
+    font-size: 104px;
+}
+
+/*
+font size css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*
+common css ends
+*/
+
+nav{
+    z-index: 999;
+}
+
+/*
+nav css ends
+*/
+
+#banner .banner{
+    background-image: url(../images/banner-back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px 0;
+}
+
+#banner .banner h1{
+    padding-top: 15%;
+}
+
+#banner .banner button{
+    margin-top: 20px;
+}
+
+/*
+banner css ends
+*/
+
+#new .new{
+    background-image: url(../images/new-back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+
+#new .new .new-text h1{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    word-wrap: nowrap;
+    writing-mode: sideways-lr;
+    -webkit-writing-mode: sideways-lr;
+    -ms-writing-mode: sideways-lr;
+}
+
+#new .new .new-text h2{
+    margin-bottom: 25%;
+}
+
+/*
+new css ends
+*/
+
+#about .about{
+    padding: 120px 0;
+}
+
+#about .about .about-item{
+    color: var(--brand);
+}
+
+/*
+about css ends
+*/
+
+#menu .menu-logo{
+    padding-top: 90px;
+}
+
+#menu header{
+    margin: 90px 0;
+}
+
+#menu .sig{
+    margin-top: 90px;
+}
+
+#menu .menu-parallax{
+	min-height: 400px;
+	background: transparent;
+}
+
+/*
+menu css ends
+*/
+
+#con .con{
+    background-color: var(--brand2);
+    padding: 120px 0;
+}
+
+#con .con .con-item header{
+    color: var(--brand);
+}
+
+#con .con .con-item p{
+    margin: 30px 0;
+}
+
+/*
+con css ends
+*/
+
+#master .master-parallax{
+	min-height: 400px;
+	background: transparent;
+}
+
+#master header{
+    margin-bottom: 95px;
+}
+
+#master .master-item{
+    background-color: var(--brand);
+}
+
+#master .master-item h1{
+    padding-top: 95px;
+    padding-bottom: 40px;
+}
+
+#master .master-item h2{
+    padding-bottom: 100px;
+}
+
+#master .master-item h3{
+    padding-bottom: 40px;
+}
+
+#master .master-btn{
+    background-color: var(--brand);
+    margin-top: 40px;
+}
+
+/*
+master css ends
+*/
+
+#gallery .gallery{
+    background-image: url(../images/gallery-back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+
+#gallery .gallery header{
+    margin-bottom: 50px;
+}
+
+#gallery .gallery h1{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#gallery .gallery .sm ul{
+    margin-bottom: 60px;
+}
+
+#gallery .gallery .web{
+    color: var(--brand);
+}
+
+/*
+gallery css ends
+*/
+
+footer{
+    background-color: #775700;
+    padding: 60px 0;
+}
